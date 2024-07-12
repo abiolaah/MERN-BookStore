@@ -39,12 +39,16 @@ Below are steps to follow if using the cloned repository
     ```sh
     npm install
     ```
-5. Start the frontend development server with the command below
+5. Create a new file named url.js in the db folder and copy the code below. Instead of <mongodb_url>, ensure you use the URL to you database
+```sh
+export const MONGODB_URI = <mongodb_url>
+```
+6. Start the backend development server with the command below
     ```sh
     npm run dev
     ```
-5. Open your web browser and navigate to ```http://localhost:5001``` to view the application.
-6. Use ```http://localhost:5001/api/books``` to test the api endpoints
+7. Open your web browser and navigate to ```http://localhost:5001``` to view the application.
+8. Use ```http://localhost:5001/api/books``` to test the api endpoints
 >Note: You can change the port number in config.js
 
 #### Steps for Building Backend from Scratch
