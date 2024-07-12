@@ -31,7 +31,7 @@ Below are steps to follow if using the cloned repository
     ```sh
     cd MERN-BookStore
     ```
-3. Navigate to the frontend directory in your terminal.
+3. Navigate to the backend directory in your terminal.
     ```sh
     cd backeend
     ```
@@ -133,8 +133,12 @@ Below are steps to follow if using the cloned repository
     npm install
     ```
 5. Start the frontend development server with the command below
+     ```sh
+    npm run start
+    ```
+    or 
     ```sh
-    npm run dev
+    npm start
     ```
 5. Open your web browser and navigate to ```http://localhost:5173``` to view the application.
 
@@ -160,8 +164,12 @@ cd <name-of-frontend-directory>
 npm install
 ```
 8. Start the frontend development server with the command below
+ ```sh
+npm run start
+```
+or 
 ```sh
-npm run dev
+npm start
 ```
 9. Open your web browser and navigate to ```http://localhost:5173``` to view the application.
 
